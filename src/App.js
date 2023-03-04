@@ -11,7 +11,7 @@ function App() {
 
     document.title = `Count (${counter})`
 
-  });
+  },[counter]);
 
   // console.log(title);
 
