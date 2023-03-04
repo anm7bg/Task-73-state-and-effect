@@ -1,5 +1,5 @@
 import "./App.css";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
 
 function App() {
@@ -8,9 +8,9 @@ function App() {
 
 
   useEffect(() => {
-    let title = document.querySelector(".title")
 
-    title.innerHTML = `Count (${counter})`
+    document.title = `Count (${counter})`
+
   });
 
   // console.log(title);
